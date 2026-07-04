@@ -14,3 +14,7 @@
 * Otro LLM pequeño como Llama 3B para correlacionar los comentarios del usuario final con los cambios de interfaz y las mejoras en tiempo de ejecución y satisfacción del usuario.
 
 * Entrenamiento continuo analizando cambios en interfaces de gigantes que puedan haber puesto a prueba esa mejora.
+
+* Proponer implementar modelo como una extensión del navegador que use AWS clickstream analytics y AWS Cloudwatch RUM
+
+* GitHub + Microsoft Clarity / Sentry: Configurando webhooks y extensiones de GitHub, puedes hacer que los reportes de "Rage Clicks" (clics frustrados de usuarios) abran automáticamente un Issue (reporte de fallo) en tu Git con la grabación de sesión adjunta.Vercel (Git-integrated Deployment): Si tu aplicación web se despliega conectando tu repositorio de Git a Vercel, la plataforma incluye de forma nativa la sección Vercel Analytics / Speed Insights. Esta mide automáticamente los Core Web Vitals de los usuarios reales en producción y te dice exactamente qué commit de Git mejoró o empeoró la estabilidad visual (CLS) de la interfaz.
